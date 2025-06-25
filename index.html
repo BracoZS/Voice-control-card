@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+
+    <div class="flex h-screen w-screen items-center justify-center">
+      <!-- card-->
+      <div class="relative flex size-112 flex-col overflow-hidden rounded-4xl border-2 border-neutral-100 bg-gradient-to-r from-white to-violet-100 shadow-lg" id="contenedor">
+        <!--card overlay-->
+        <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(200,200,150,0.2),transparent),radial-gradient(circle_at_50%_80%,rgba(255,255,255,0.3),transparent),radial-gradient(circle_at_50%_80%,rgba(0,0,0,0.1),transparent)]"></div>
+    
+        <!--contenedor-->
+        <div class="relative mb-auto flex items-center justify-center pt-12">
+          <!--circulo grande-->
+          <div class="relative flex size-68 items-center justify-center rounded-full border-3 border-[#e9e6eeda] bg-gradient-to-r from-slate-200 to-violet-300 shadow-2xl shadow-sky-800/30">
+            <!--halo morado-->
+            <div class="before:content[''] after:content[''] absolute size-40 rounded-full border-3 border-white/50 shadow-[0_0_70px_rgba(255,255,255,0.3),0_0_50px_rgba(255,255,255,0.5),0_0_30px_rgba(255,255,255,0.7)] before:absolute before:right-0 before:h-24 before:w-24 before:rounded-full before:bg-gradient-to-tr before:from-rose-500 before:to-pink-400 before:blur-2xl after:absolute after:bottom-0 after:left-0 after:h-24 after:w-24 after:rounded-full after:bg-gradient-to-tr after:from-blue-500 after:to-sky-400 after:blur-2xl"></div>
+    
+            <!--circulo central-->
+            <div class="flex size-39 rounded-full border-[#ffffffda] bg-gradient-to-br from-violet-600 to-indigo-600 text-3xl font-bold text-white drop-shadow-[0_0_20px_white]" style="box-shadow: inset 0 0 50px rgba(255, 255, 255, 1);">
+              <h1 class="red mx-auto flex">
+                <!--icono-->
+                <svg class="my-auto opacity-70" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24" fill="currentColor">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M19 9a1 1 0 0 1 1 1a8 8 0 0 1 -6.999 7.938l-.001 2.062h3a1 1 0 0 1 0 2h-8a1 1 0 0 1 0 -2h3v-2.062a8 8 0 0 1 -7 -7.938a1 1 0 1 1 2 0a6 6 0 0 0 12 0a1 1 0 0 1 1 -1m-7 -8a4 4 0 0 1 4 4v5a4 4 0 1 1 -8 0v-5a4 4 0 0 1 4 -4" />
+                </svg>
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <!--texto-->
+        <div class="bottom-0 mt-auto flex p-4">
+          <div class="m-auto flex items-center justify-center rounded-3xl border-2 border-zinc-50 bg-gradient-to-b from-white to-violet-100 px-5 py-4 shadow-md">
+              <p class="brake-all wrap- trackin text-sm font-semibold text-pretty text-gray-500"><span class="text-black">IA activado por voz.</span> Automatiza, predice y optimiza con una app que aprende contigo mediante comandos de voz</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
